@@ -1,0 +1,36 @@
+CSE_TICKERS = [
+
+    "JKH-N0000.CM",
+    "COMB-N0000.CM",
+    "HNB-N0000.CM",
+    "SAMP-N0000.CM",
+    "CCS-N0000.CM",
+    "AAF-N0000.CM",
+    "AAIC-N0000.CM",
+    "AHPL-N0000.CM",
+    "AFSL-N0000.CM",
+    "ALLI-N0000.CM",
+    "AEL-N0000.CM",
+    "CALF-N0000.CM",
+]
+
+
+PORTFOLIO_WEIGHTS = {
+
+    "JKH-N0000.CM": 0.15,
+    "COMB-N0000.CM": 0.12,
+    "HNB-N0000.CM": 0.10,
+    "SAMP-N0000.CM": 0.09,
+    "CCS-N0000.CM": 0.08,
+
+    "AAF-N0000.CM": 0.08,
+    "AAIC-N0000.CM": 0.08,
+    "AHPL-N0000.CM": 0.08,
+    "AFSL-N0000.CM": 0.07,
+    "ALLI-N0000.CM": 0.07,
+    "AEL-N0000.CM": 0.04,
+    "CALF-N0000.CM": 0.04,
+}
+
+
+ALL_TICKERS = CSE_TICKERS

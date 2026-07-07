@@ -1,0 +1,1013 @@
+2026-07-04 12:07:14,400 | INFO | Portfolio Optimization Project Started
+2026-07-04 12:07:14,401 | INFO | Configuration loaded successfully.
+2026-07-04 12:33:03,719 | INFO | ============================================================
+2026-07-04 12:33:03,719 | INFO | STARTING DOWNLOAD
+2026-07-04 12:33:03,719 | INFO | ============================================================
+2026-07-04 12:33:03,719 | INFO | Downloading AAPL
+2026-07-04 12:33:08,131 | INFO | AAPL: Downloaded 2136 rows.
+2026-07-04 12:33:08,131 | INFO | Downloading MSFT
+2026-07-04 12:33:08,844 | INFO | MSFT: Downloaded 2136 rows.
+2026-07-04 12:33:08,845 | INFO | Downloading NVDA
+2026-07-04 12:33:09,568 | INFO | NVDA: Downloaded 2136 rows.
+2026-07-04 12:33:09,568 | INFO | Downloading GOOGL
+2026-07-04 12:33:10,287 | INFO | GOOGL: Downloaded 2136 rows.
+2026-07-04 12:33:10,287 | INFO | Downloading ^GSPC
+2026-07-04 12:33:10,996 | INFO | ^GSPC: Downloaded 2136 rows.
+2026-07-04 12:33:10,997 | INFO | Downloading JKH-N0000.CM
+2026-07-04 12:33:11,893 | INFO | JKH-N0000.CM: Downloaded 2187 rows.
+2026-07-04 12:33:11,893 | INFO | Downloading COMB-N0000.CM
+2026-07-04 12:33:12,740 | INFO | COMB-N0000.CM: Downloaded 2187 rows.
+2026-07-04 12:33:12,741 | INFO | Downloading HNB-N0000.CM
+2026-07-04 12:33:13,631 | INFO | HNB-N0000.CM: Downloaded 2190 rows.
+2026-07-04 12:33:13,632 | INFO | Downloading SAMP-N0000.CM
+2026-07-04 12:33:14,401 | INFO | SAMP-N0000.CM: Downloaded 2187 rows.
+2026-07-04 12:33:14,402 | INFO | Downloading CCS-N0000.CM
+2026-07-04 12:33:15,222 | INFO | CCS-N0000.CM: Downloaded 2188 rows.
+2026-07-04 12:33:15,222 | INFO | Downloading LKR=X
+2026-07-04 12:33:16,135 | INFO | LKR=X: Downloaded 2214 rows.
+2026-07-04 12:33:16,135 | INFO | ============================================================
+2026-07-04 12:33:16,135 | INFO | DOWNLOAD COMPLETE
+2026-07-04 12:33:16,135 | INFO | ============================================================
+2026-07-04 12:33:16,135 | INFO | Successful: 11
+2026-07-04 12:33:16,136 | INFO | Failed: 0
+2026-07-04 12:33:16,136 | INFO | Validating downloaded files...
+2026-07-04 12:33:16,156 | INFO | AAPL.csv -> FAIL
+2026-07-04 12:33:16,156 | WARNING | Dates not sorted
+2026-07-04 12:33:16,156 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,169 | INFO | CCS-N0000.CM.csv -> FAIL
+2026-07-04 12:33:16,169 | WARNING | Dates not sorted
+2026-07-04 12:33:16,169 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,185 | INFO | COMB-N0000.CM.csv -> FAIL
+2026-07-04 12:33:16,185 | WARNING | Dates not sorted
+2026-07-04 12:33:16,185 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,203 | INFO | GOOGL.csv -> FAIL
+2026-07-04 12:33:16,203 | WARNING | Dates not sorted
+2026-07-04 12:33:16,204 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,219 | INFO | HNB-N0000.CM.csv -> FAIL
+2026-07-04 12:33:16,220 | WARNING | Dates not sorted
+2026-07-04 12:33:16,220 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,234 | INFO | JKH-N0000.CM.csv -> FAIL
+2026-07-04 12:33:16,234 | WARNING | Dates not sorted
+2026-07-04 12:33:16,234 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,252 | INFO | LKR=X.csv -> FAIL
+2026-07-04 12:33:16,252 | WARNING | Dates not sorted
+2026-07-04 12:33:16,252 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,272 | INFO | MSFT.csv -> FAIL
+2026-07-04 12:33:16,272 | WARNING | Dates not sorted
+2026-07-04 12:33:16,272 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,290 | INFO | NVDA.csv -> FAIL
+2026-07-04 12:33:16,290 | WARNING | Dates not sorted
+2026-07-04 12:33:16,290 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,307 | INFO | SAMP-N0000.CM.csv -> FAIL
+2026-07-04 12:33:16,307 | WARNING | Dates not sorted
+2026-07-04 12:33:16,307 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,328 | INFO | ^GSPC.csv -> FAIL
+2026-07-04 12:33:16,328 | WARNING | Dates not sorted
+2026-07-04 12:33:16,328 | WARNING | '<=' not supported between instances of 'str' and 'int'
+2026-07-04 12:33:16,329 | INFO | Converting JKH-N0000.CM
+2026-07-04 12:59:36,060 | INFO | ============================================================
+2026-07-04 12:59:36,060 | INFO | STARTING DOWNLOAD
+2026-07-04 12:59:36,060 | INFO | ============================================================
+2026-07-04 12:59:36,061 | INFO | Downloading AAPL
+2026-07-04 12:59:38,289 | INFO | AAPL: Downloaded 2136 rows
+2026-07-04 12:59:38,289 | INFO | Downloading MSFT
+2026-07-04 12:59:39,052 | INFO | MSFT: Downloaded 2136 rows
+2026-07-04 12:59:39,052 | INFO | Downloading NVDA
+2026-07-04 12:59:39,776 | INFO | NVDA: Downloaded 2136 rows
+2026-07-04 12:59:39,776 | INFO | Downloading GOOGL
+2026-07-04 12:59:40,593 | INFO | GOOGL: Downloaded 2136 rows
+2026-07-04 12:59:40,594 | INFO | Downloading ^GSPC
+2026-07-04 12:59:41,394 | INFO | ^GSPC: Downloaded 2136 rows
+2026-07-04 12:59:41,394 | INFO | Downloading JKH-N0000.CM
+2026-07-04 12:59:42,114 | INFO | JKH-N0000.CM: Downloaded 2187 rows
+2026-07-04 12:59:42,114 | INFO | Downloading COMB-N0000.CM
+2026-07-04 12:59:42,875 | INFO | COMB-N0000.CM: Downloaded 2187 rows
+2026-07-04 12:59:42,875 | INFO | Downloading HNB-N0000.CM
+2026-07-04 12:59:43,599 | INFO | HNB-N0000.CM: Downloaded 2190 rows
+2026-07-04 12:59:43,600 | INFO | Downloading SAMP-N0000.CM
+2026-07-04 12:59:44,330 | INFO | SAMP-N0000.CM: Downloaded 2187 rows
+2026-07-04 12:59:44,330 | INFO | Downloading CCS-N0000.CM
+2026-07-04 12:59:45,008 | INFO | CCS-N0000.CM: Downloaded 2188 rows
+2026-07-04 12:59:45,008 | INFO | Downloading LKR=X
+2026-07-04 12:59:45,761 | INFO | LKR=X: Downloaded 2214 rows
+2026-07-04 12:59:45,761 | INFO | ============================================================
+2026-07-04 12:59:45,762 | INFO | DOWNLOAD COMPLETE
+2026-07-04 12:59:45,762 | INFO | ============================================================
+2026-07-04 12:59:45,762 | INFO | Successful: 11
+2026-07-04 12:59:45,762 | INFO | Failed: 0
+2026-07-04 12:59:45,762 | INFO | Validating downloaded files...
+2026-07-04 12:59:45,784 | INFO | AAPL.csv -> PASS
+2026-07-04 12:59:45,802 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-04 12:59:45,819 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-04 12:59:45,857 | INFO | GOOGL.csv -> PASS
+2026-07-04 12:59:45,875 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-04 12:59:45,903 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-04 12:59:45,919 | INFO | LKR=X.csv -> PASS
+2026-07-04 12:59:45,935 | INFO | MSFT.csv -> PASS
+2026-07-04 12:59:45,964 | INFO | NVDA.csv -> PASS
+2026-07-04 12:59:45,980 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-04 12:59:45,997 | INFO | ^GSPC.csv -> PASS
+2026-07-04 12:59:45,997 | INFO | Converting JKH-N0000.CM
+2026-07-04 12:59:46,022 | INFO | Saved JKH-N0000.CM.csv
+2026-07-04 12:59:46,022 | INFO | Converting COMB-N0000.CM
+2026-07-04 12:59:46,048 | INFO | Saved COMB-N0000.CM.csv
+2026-07-04 12:59:46,049 | INFO | Converting HNB-N0000.CM
+2026-07-04 12:59:46,076 | INFO | Saved HNB-N0000.CM.csv
+2026-07-04 12:59:46,076 | INFO | Converting SAMP-N0000.CM
+2026-07-04 12:59:46,103 | INFO | Saved SAMP-N0000.CM.csv
+2026-07-04 12:59:46,104 | INFO | Converting CCS-N0000.CM
+2026-07-04 12:59:46,130 | INFO | Saved CCS-N0000.CM.csv
+2026-07-06 02:08:31,132 | INFO | ============================================================
+2026-07-06 02:08:31,133 | INFO | STARTING DOWNLOAD
+2026-07-06 02:08:31,133 | INFO | ============================================================
+2026-07-06 02:08:31,133 | INFO | Downloading JKH-N0000.CM
+2026-07-06 02:08:35,204 | INFO | JKH-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:35,205 | INFO | Downloading COMB-N0000.CM
+2026-07-06 02:08:36,452 | INFO | COMB-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:36,452 | INFO | Downloading HNB-N0000.CM
+2026-07-06 02:08:37,727 | INFO | HNB-N0000.CM: Downloaded 2190 rows
+2026-07-06 02:08:37,728 | INFO | Downloading SAMP-N0000.CM
+2026-07-06 02:08:38,860 | INFO | SAMP-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:38,861 | INFO | Downloading CCS-N0000.CM
+2026-07-06 02:08:40,046 | INFO | CCS-N0000.CM: Downloaded 2188 rows
+2026-07-06 02:08:40,046 | INFO | Downloading AAF-N0000.CM
+2026-07-06 02:08:41,380 | INFO | AAF-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:41,381 | INFO | Downloading AAIC-N0000.CM
+2026-07-06 02:08:42,734 | INFO | AAIC-N0000.CM: Downloaded 2188 rows
+2026-07-06 02:08:42,734 | INFO | Downloading AHPL-N0000.CM
+2026-07-06 02:08:43,998 | INFO | AHPL-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:43,999 | INFO | Downloading AFSL-N0000.CM
+2026-07-06 02:08:45,053 | INFO | AFSL-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:45,053 | INFO | Downloading ALLI-N0000.CM
+2026-07-06 02:08:46,423 | INFO | ALLI-N0000.CM: Downloaded 2188 rows
+2026-07-06 02:08:46,423 | INFO | Downloading AEL-N0000.CM
+2026-07-06 02:08:48,164 | INFO | AEL-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:48,164 | INFO | Downloading CALF-N0000.CM
+2026-07-06 02:08:50,235 | INFO | CALF-N0000.CM: Downloaded 2187 rows
+2026-07-06 02:08:50,235 | INFO | ============================================================
+2026-07-06 02:08:50,235 | INFO | DOWNLOAD COMPLETE
+2026-07-06 02:08:50,235 | INFO | ============================================================
+2026-07-06 02:08:50,235 | INFO | Successful: 12
+2026-07-06 02:08:50,236 | INFO | Failed: 0
+2026-07-06 02:08:50,236 | INFO | Validating downloaded files...
+2026-07-06 02:08:50,254 | INFO | AAF-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,268 | INFO | AAIC-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,286 | INFO | AEL-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,300 | INFO | AFSL-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,314 | INFO | AHPL-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,329 | INFO | ALLI-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,344 | INFO | CALF-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,359 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,377 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,393 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,408 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,424 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-06 02:08:50,440 | INFO | ^GSPC.csv -> PASS
+2026-07-06 02:10:30,871 | INFO | ============================================================
+2026-07-06 02:10:30,872 | INFO | STARTING PREPROCESSING
+2026-07-06 02:10:30,872 | INFO | ============================================================
+2026-07-06 02:10:30,872 | INFO | Loading CSE price files...
+2026-07-06 02:10:30,872 | INFO | Loading JKH-N0000.CM.csv
+2026-07-06 02:10:30,883 | INFO | Loading COMB-N0000.CM.csv
+2026-07-06 02:10:30,890 | INFO | Loading HNB-N0000.CM.csv
+2026-07-06 02:10:30,896 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-06 02:10:30,904 | INFO | Loading CCS-N0000.CM.csv
+2026-07-06 02:10:30,909 | INFO | Loading AAF-N0000.CM.csv
+2026-07-06 02:10:30,915 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-06 02:10:30,920 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-06 02:10:30,925 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-06 02:10:30,931 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-06 02:10:30,936 | INFO | Loading AEL-N0000.CM.csv
+2026-07-06 02:10:30,943 | INFO | Loading CALF-N0000.CM.csv
+2026-07-06 02:10:30,956 | INFO | Loaded 12 assets.
+2026-07-06 02:10:30,956 | INFO | Aligning dates...
+2026-07-06 02:10:30,957 | INFO | Rows: 2190
+2026-07-06 02:10:30,957 | INFO | Handling missing values...
+2026-07-06 02:10:30,958 | INFO | Missing before fill: 30
+2026-07-06 02:10:30,960 | INFO | Missing after fill: 0
+2026-07-06 02:10:30,960 | INFO | Calculating daily returns...
+2026-07-06 02:10:30,963 | INFO | Calculated returns for 12 assets.
+2026-07-06 02:10:30,963 | INFO | Building portfolio...
+2026-07-06 02:10:30,965 | INFO | Portfolio created.
+2026-07-06 02:10:30,965 | INFO | Generating transaction history...
+2026-07-06 02:10:30,966 | INFO | Transaction history created.
+2026-07-06 02:10:30,966 | INFO | Saving processed datasets...
+2026-07-06 02:10:31,042 | INFO | All processed files saved.
+2026-07-06 02:10:31,043 | INFO | ============================================================
+2026-07-06 02:10:31,043 | INFO | PREPROCESSING COMPLETE
+2026-07-06 02:10:31,043 | INFO | ============================================================
+2026-07-07 00:16:14,170 | INFO | ============================================================
+2026-07-07 00:16:14,170 | INFO | PORTFOLIO ANALYTICS PIPELINE — START
+2026-07-07 00:16:14,170 | INFO | ============================================================
+2026-07-07 00:16:14,170 | INFO | ============================================================
+2026-07-07 00:16:14,170 | INFO | STARTING PREPROCESSING
+2026-07-07 00:16:14,170 | INFO | ============================================================
+2026-07-07 00:16:14,170 | INFO | Loading CSE price files...
+2026-07-07 00:16:14,170 | INFO | Loading JKH-N0000.CM.csv
+2026-07-07 00:16:14,208 | INFO | Loading COMB-N0000.CM.csv
+2026-07-07 00:16:14,218 | INFO | Loading HNB-N0000.CM.csv
+2026-07-07 00:16:14,232 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-07 00:16:14,253 | INFO | Loading CCS-N0000.CM.csv
+2026-07-07 00:16:14,267 | INFO | Loading AAF-N0000.CM.csv
+2026-07-07 00:16:14,281 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-07 00:16:14,295 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-07 00:16:14,312 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-07 00:16:14,327 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-07 00:16:14,340 | INFO | Loading AEL-N0000.CM.csv
+2026-07-07 00:16:14,353 | INFO | Loading CALF-N0000.CM.csv
+2026-07-07 00:16:14,381 | INFO | Loaded 12 assets.
+2026-07-07 00:16:14,382 | INFO | Aligning dates...
+2026-07-07 00:16:14,382 | INFO | Rows: 2190
+2026-07-07 00:16:14,382 | INFO | Handling missing values...
+2026-07-07 00:16:14,383 | INFO | Missing before fill: 30
+2026-07-07 00:16:14,384 | INFO | Missing after fill: 0
+2026-07-07 00:16:14,384 | INFO | Calculating daily returns...
+2026-07-07 00:16:14,386 | INFO | Calculated returns for 12 assets.
+2026-07-07 00:16:14,387 | INFO | Building portfolio...
+2026-07-07 00:16:14,389 | INFO | Portfolio created.
+2026-07-07 00:16:14,389 | INFO | Generating transaction history...
+2026-07-07 00:16:14,390 | INFO | Transaction history created.
+2026-07-07 00:16:14,391 | INFO | Saving processed datasets...
+2026-07-07 00:16:14,449 | INFO | All processed files saved.
+2026-07-07 00:16:14,449 | INFO | ============================================================
+2026-07-07 00:16:14,449 | INFO | PREPROCESSING COMPLETE
+2026-07-07 00:16:14,449 | INFO | ============================================================
+2026-07-07 00:16:14,449 | INFO | ############################################################
+2026-07-07 00:16:14,449 | INFO | # PHASE 3 — METRIC CALCULATION
+2026-07-07 00:16:14,449 | INFO | ############################################################
+2026-07-07 00:16:14,449 | INFO | ============================================================
+2026-07-07 00:16:14,449 | INFO | STARTING METRIC CALCULATIONS
+2026-07-07 00:16:14,449 | INFO | ============================================================
+2026-07-07 00:16:14,449 | INFO | ============================================================
+2026-07-07 00:16:14,449 | INFO | Loading processed datasets...
+2026-07-07 00:16:14,449 | INFO | ============================================================
+2026-07-07 00:16:14,496 | ERROR | Metric calculation failed. Check that preprocessing outputs exist in the processed data folder before rerunning this step alone.
+Traceback (most recent call last):
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 69, in main
+    run_metrics()
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 44, in run_metrics
+    metrics.run_pipeline()
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 416, in run_pipeline
+    self.load_data()
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 77, in load_data
+    if BENCHMARK in self.asset_returns.columns:
+       ^^^^^^^^^
+NameError: name 'BENCHMARK' is not defined
+2026-07-07 00:29:41,219 | INFO | ============================================================
+2026-07-07 00:29:41,219 | INFO | PORTFOLIO ANALYTICS PIPELINE — START
+2026-07-07 00:29:41,219 | INFO | ============================================================
+2026-07-07 00:29:41,219 | INFO | ############################################################
+2026-07-07 00:29:41,219 | INFO | # PHASE 1 — DATA DOWNLOAD
+2026-07-07 00:29:41,219 | INFO | ############################################################
+2026-07-07 00:29:42,791 | INFO | ============================================================
+2026-07-07 00:29:42,791 | INFO | STARTING DOWNLOAD
+2026-07-07 00:29:42,791 | INFO | ============================================================
+2026-07-07 00:29:42,791 | INFO | Downloading JKH-N0000.CM
+2026-07-07 00:29:46,388 | INFO | JKH-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:46,388 | INFO | Downloading COMB-N0000.CM
+2026-07-07 00:29:47,014 | INFO | COMB-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:47,014 | INFO | Downloading HNB-N0000.CM
+2026-07-07 00:29:47,738 | INFO | HNB-N0000.CM: Downloaded 2190 rows
+2026-07-07 00:29:47,739 | INFO | Downloading SAMP-N0000.CM
+2026-07-07 00:29:48,495 | INFO | SAMP-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:48,495 | INFO | Downloading CCS-N0000.CM
+2026-07-07 00:29:49,160 | INFO | CCS-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:29:49,161 | INFO | Downloading AAF-N0000.CM
+2026-07-07 00:29:49,754 | INFO | AAF-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:49,754 | INFO | Downloading AAIC-N0000.CM
+2026-07-07 00:29:50,566 | INFO | AAIC-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:29:50,566 | INFO | Downloading AHPL-N0000.CM
+2026-07-07 00:29:51,158 | INFO | AHPL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:51,158 | INFO | Downloading AFSL-N0000.CM
+2026-07-07 00:29:51,813 | INFO | AFSL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:51,813 | INFO | Downloading ALLI-N0000.CM
+2026-07-07 00:29:52,464 | INFO | ALLI-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:29:52,464 | INFO | Downloading AEL-N0000.CM
+2026-07-07 00:29:53,204 | INFO | AEL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:53,204 | INFO | Downloading CALF-N0000.CM
+2026-07-07 00:29:53,766 | INFO | CALF-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:29:53,766 | INFO | ============================================================
+2026-07-07 00:29:53,766 | INFO | DOWNLOAD COMPLETE
+2026-07-07 00:29:53,772 | INFO | ============================================================
+2026-07-07 00:29:53,772 | INFO | Successful: 12
+2026-07-07 00:29:53,772 | INFO | Failed: 0
+2026-07-07 00:29:53,772 | INFO | ############################################################
+2026-07-07 00:29:53,772 | INFO | # PHASE 2 — DATA VALIDATION
+2026-07-07 00:29:53,772 | INFO | ############################################################
+2026-07-07 00:29:53,772 | INFO | Validating downloaded files...
+2026-07-07 00:29:53,794 | INFO | AAF-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,810 | INFO | AAIC-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,826 | INFO | AEL-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,841 | INFO | AFSL-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,856 | INFO | AHPL-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,870 | INFO | ALLI-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,884 | INFO | CALF-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,898 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,914 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,930 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,938 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,959 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-07 00:29:53,960 | INFO | Validation passed: 12 file(s) checked, 0 warning(s).
+2026-07-07 00:29:53,960 | INFO | ############################################################
+2026-07-07 00:29:53,960 | INFO | # PHASE 3 — PREPROCESSING
+2026-07-07 00:29:53,960 | INFO | ############################################################
+2026-07-07 00:29:53,963 | INFO | ============================================================
+2026-07-07 00:29:53,963 | INFO | STARTING PREPROCESSING
+2026-07-07 00:29:53,963 | INFO | ============================================================
+2026-07-07 00:29:53,963 | INFO | Loading CSE price files...
+2026-07-07 00:29:53,963 | INFO | Loading JKH-N0000.CM.csv
+2026-07-07 00:29:53,968 | INFO | Loading COMB-N0000.CM.csv
+2026-07-07 00:29:53,973 | INFO | Loading HNB-N0000.CM.csv
+2026-07-07 00:29:53,973 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-07 00:29:53,984 | INFO | Loading CCS-N0000.CM.csv
+2026-07-07 00:29:53,987 | INFO | Loading AAF-N0000.CM.csv
+2026-07-07 00:29:53,994 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-07 00:29:53,996 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-07 00:29:54,004 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-07 00:29:54,008 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-07 00:29:54,013 | INFO | Loading AEL-N0000.CM.csv
+2026-07-07 00:29:54,016 | INFO | Loading CALF-N0000.CM.csv
+2026-07-07 00:29:54,035 | INFO | Loaded 12 assets.
+2026-07-07 00:29:54,035 | INFO | Aligning dates...
+2026-07-07 00:29:54,035 | INFO | Rows: 2190
+2026-07-07 00:29:54,035 | INFO | Handling missing values...
+2026-07-07 00:29:54,035 | INFO | Missing before fill: 30
+2026-07-07 00:29:54,035 | INFO | Missing after fill: 0
+2026-07-07 00:29:54,035 | INFO | Calculating daily returns...
+2026-07-07 00:29:54,035 | INFO | Calculated returns for 12 assets.
+2026-07-07 00:29:54,035 | INFO | Building portfolio...
+2026-07-07 00:29:54,043 | INFO | Portfolio created.
+2026-07-07 00:29:54,043 | INFO | Generating transaction history...
+2026-07-07 00:29:54,043 | INFO | Transaction history created.
+2026-07-07 00:29:54,043 | INFO | Saving processed datasets...
+2026-07-07 00:29:54,099 | INFO | All processed files saved.
+2026-07-07 00:29:54,099 | INFO | ============================================================
+2026-07-07 00:29:54,099 | INFO | PREPROCESSING COMPLETE
+2026-07-07 00:29:54,099 | INFO | ============================================================
+2026-07-07 00:29:54,115 | INFO | ############################################################
+2026-07-07 00:29:54,115 | INFO | # PHASE 4 — METRIC CALCULATION
+2026-07-07 00:29:54,115 | INFO | ############################################################
+2026-07-07 00:29:54,121 | INFO | ============================================================
+2026-07-07 00:29:54,121 | INFO | STARTING METRIC CALCULATIONS
+2026-07-07 00:29:54,122 | INFO | ============================================================
+2026-07-07 00:29:54,122 | INFO | ============================================================
+2026-07-07 00:29:54,122 | INFO | Loading processed datasets...
+2026-07-07 00:29:54,122 | INFO | ============================================================
+2026-07-07 00:29:54,154 | WARNING | Benchmark ticker 'CSEALL-N0000.CM' not found in daily_returns.csv — beta cannot be calculated until this is present.
+2026-07-07 00:29:54,154 | INFO | Portfolio rows : 2189
+2026-07-07 00:29:54,154 | INFO | Asset return rows : 2189
+2026-07-07 00:29:54,154 | INFO | Calculating return metrics...
+2026-07-07 00:29:54,154 | INFO | Cumulative Return : 381.82%
+2026-07-07 00:29:54,154 | INFO | Annualized Return : 19.84%
+2026-07-07 00:29:54,159 | INFO | Calculating volatility...
+2026-07-07 00:29:54,159 | INFO | Annualized Volatility : 19.42%
+2026-07-07 00:29:54,159 | INFO | Calculating Sharpe Ratio...
+2026-07-07 00:29:54,159 | INFO | Sharpe Ratio : 0.5868
+2026-07-07 00:29:54,159 | INFO | Calculating Maximum Drawdown...
+2026-07-07 00:29:54,161 | INFO | Maximum Drawdown : -42.48%
+2026-07-07 00:29:54,161 | INFO | Peak Date : 2022-01-31 00:00:00
+2026-07-07 00:29:54,161 | INFO | Trough Date : 2022-07-08 00:00:00
+2026-07-07 00:29:54,161 | INFO | Calculating Portfolio Beta...
+2026-07-07 00:29:54,161 | ERROR | Metric calculation failed. Check that preprocessing outputs exist in data/processed/ before rerunning.
+Traceback (most recent call last):
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 228, in main
+    run_metrics()
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 145, in run_metrics
+    metrics.run_pipeline()
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 421, in run_pipeline
+    self.calculate_beta()
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 221, in calculate_beta
+    raise ValueError(
+ValueError: Portfolio data has no 'Benchmark Return' column. Check that BENCHMARK exists in daily_returns.csv.
+2026-07-07 00:37:42,372 | INFO | ============================================================
+2026-07-07 00:37:42,373 | INFO | PORTFOLIO ANALYTICS PIPELINE — START
+2026-07-07 00:37:42,373 | INFO | ============================================================
+2026-07-07 00:37:42,373 | INFO | ############################################################
+2026-07-07 00:37:42,373 | INFO | # PHASE 1 — DATA DOWNLOAD
+2026-07-07 00:37:42,373 | INFO | ############################################################
+2026-07-07 00:37:43,355 | INFO | ============================================================
+2026-07-07 00:37:43,355 | INFO | STARTING DOWNLOAD
+2026-07-07 00:37:43,355 | INFO | ============================================================
+2026-07-07 00:37:43,356 | INFO | Downloading JKH-N0000.CM
+2026-07-07 00:37:45,430 | INFO | JKH-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:45,430 | INFO | Downloading COMB-N0000.CM
+2026-07-07 00:37:46,129 | INFO | COMB-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:46,129 | INFO | Downloading HNB-N0000.CM
+2026-07-07 00:37:46,729 | INFO | HNB-N0000.CM: Downloaded 2190 rows
+2026-07-07 00:37:46,729 | INFO | Downloading SAMP-N0000.CM
+2026-07-07 00:37:47,438 | INFO | SAMP-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:47,438 | INFO | Downloading CCS-N0000.CM
+2026-07-07 00:37:48,186 | INFO | CCS-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:37:48,186 | INFO | Downloading AAF-N0000.CM
+2026-07-07 00:37:48,785 | INFO | AAF-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:48,785 | INFO | Downloading AAIC-N0000.CM
+2026-07-07 00:37:49,368 | INFO | AAIC-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:37:49,368 | INFO | Downloading AHPL-N0000.CM
+2026-07-07 00:37:49,937 | INFO | AHPL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:49,937 | INFO | Downloading AFSL-N0000.CM
+2026-07-07 00:37:50,580 | INFO | AFSL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:50,580 | INFO | Downloading ALLI-N0000.CM
+2026-07-07 00:37:51,171 | INFO | ALLI-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:37:51,171 | INFO | Downloading AEL-N0000.CM
+2026-07-07 00:37:51,740 | INFO | AEL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:51,740 | INFO | Downloading CALF-N0000.CM
+2026-07-07 00:37:52,341 | INFO | CALF-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:37:52,342 | INFO | Downloading CSEALL-N0000.CM
+2026-07-07 00:37:54,356 | WARNING | CSEALL-N0000.CM: No data returned
+2026-07-07 00:37:54,356 | INFO | ============================================================
+2026-07-07 00:37:54,356 | INFO | DOWNLOAD COMPLETE
+2026-07-07 00:37:54,356 | INFO | ============================================================
+2026-07-07 00:37:54,356 | INFO | Successful: 12
+2026-07-07 00:37:54,356 | INFO | Failed: 1
+2026-07-07 00:37:54,356 | WARNING | The following tickers FAILED to download: ['CSEALL-N0000.CM']
+2026-07-07 00:37:54,356 | INFO | ############################################################
+2026-07-07 00:37:54,356 | INFO | # PHASE 2 — DATA VALIDATION
+2026-07-07 00:37:54,356 | INFO | ############################################################
+2026-07-07 00:37:54,359 | INFO | Validating downloaded files...
+2026-07-07 00:37:54,380 | INFO | AAF-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,396 | INFO | AAIC-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,411 | INFO | AEL-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,425 | INFO | AFSL-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,442 | INFO | AHPL-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,459 | INFO | ALLI-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,477 | INFO | CALF-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,492 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,508 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,524 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,540 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,556 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-07 00:37:54,557 | INFO | Validation passed: 12 file(s) checked, 0 warning(s).
+2026-07-07 00:37:54,557 | INFO | ############################################################
+2026-07-07 00:37:54,557 | INFO | # PHASE 3 — PREPROCESSING
+2026-07-07 00:37:54,557 | INFO | ############################################################
+2026-07-07 00:37:54,561 | INFO | ============================================================
+2026-07-07 00:37:54,561 | INFO | STARTING PREPROCESSING
+2026-07-07 00:37:54,561 | INFO | ============================================================
+2026-07-07 00:37:54,561 | INFO | Loading CSE price files...
+2026-07-07 00:37:54,561 | INFO | Loading JKH-N0000.CM.csv
+2026-07-07 00:37:54,566 | INFO | Loading COMB-N0000.CM.csv
+2026-07-07 00:37:54,571 | INFO | Loading HNB-N0000.CM.csv
+2026-07-07 00:37:54,577 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-07 00:37:54,583 | INFO | Loading CCS-N0000.CM.csv
+2026-07-07 00:37:54,588 | INFO | Loading AAF-N0000.CM.csv
+2026-07-07 00:37:54,592 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-07 00:37:54,596 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-07 00:37:54,600 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-07 00:37:54,605 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-07 00:37:54,609 | INFO | Loading AEL-N0000.CM.csv
+2026-07-07 00:37:54,614 | INFO | Loading CALF-N0000.CM.csv
+2026-07-07 00:37:54,626 | WARNING | Benchmark raw file not found: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\data\raw\CSEALL-N0000.CM.csv. Run download first, then rerun preprocessing.
+2026-07-07 00:37:54,627 | INFO | Loaded 12 assets + benchmark.
+2026-07-07 00:37:54,627 | INFO | Aligning dates...
+2026-07-07 00:37:54,627 | INFO | Rows: 2190
+2026-07-07 00:37:54,627 | INFO | Handling missing values...
+2026-07-07 00:37:54,627 | INFO | Missing before fill: 30
+2026-07-07 00:37:54,630 | INFO | Missing after fill: 0
+2026-07-07 00:37:54,630 | INFO | Calculating daily returns...
+2026-07-07 00:37:54,632 | INFO | Calculated returns for 12 assets.
+2026-07-07 00:37:54,632 | INFO | Building portfolio...
+2026-07-07 00:37:54,634 | INFO | Portfolio created.
+2026-07-07 00:37:54,634 | INFO | Generating transaction history...
+2026-07-07 00:37:54,634 | INFO | Transaction history created.
+2026-07-07 00:37:54,634 | INFO | Saving processed datasets...
+2026-07-07 00:37:54,700 | INFO | All processed files saved.
+2026-07-07 00:37:54,700 | INFO | ============================================================
+2026-07-07 00:37:54,700 | INFO | PREPROCESSING COMPLETE
+2026-07-07 00:37:54,700 | INFO | ============================================================
+2026-07-07 00:37:54,700 | INFO | ############################################################
+2026-07-07 00:37:54,701 | INFO | # PHASE 4 — METRIC CALCULATION
+2026-07-07 00:37:54,701 | INFO | ############################################################
+2026-07-07 00:37:54,707 | INFO | ============================================================
+2026-07-07 00:37:54,707 | INFO | STARTING METRIC CALCULATIONS
+2026-07-07 00:37:54,707 | INFO | ============================================================
+2026-07-07 00:37:54,707 | INFO | ============================================================
+2026-07-07 00:37:54,707 | INFO | Loading processed datasets...
+2026-07-07 00:37:54,707 | INFO | ============================================================
+2026-07-07 00:37:54,744 | WARNING | Benchmark ticker 'CSEALL-N0000.CM' not found in daily_returns.csv — beta cannot be calculated until this is present.
+2026-07-07 00:37:54,744 | INFO | Portfolio rows : 2189
+2026-07-07 00:37:54,744 | INFO | Asset return rows : 2189
+2026-07-07 00:37:54,744 | INFO | Calculating return metrics...
+2026-07-07 00:37:54,744 | INFO | Cumulative Return : 381.82%
+2026-07-07 00:37:54,745 | INFO | Annualized Return : 19.84%
+2026-07-07 00:37:54,745 | INFO | Calculating volatility...
+2026-07-07 00:37:54,745 | INFO | Annualized Volatility : 19.42%
+2026-07-07 00:37:54,745 | INFO | Calculating Sharpe Ratio...
+2026-07-07 00:37:54,745 | INFO | Sharpe Ratio : 0.5868
+2026-07-07 00:37:54,745 | INFO | Calculating Maximum Drawdown...
+2026-07-07 00:37:54,746 | INFO | Maximum Drawdown : -42.48%
+2026-07-07 00:37:54,746 | INFO | Peak Date : 2022-01-31 00:00:00
+2026-07-07 00:37:54,746 | INFO | Trough Date : 2022-07-08 00:00:00
+2026-07-07 00:37:54,746 | INFO | Calculating Portfolio Beta...
+2026-07-07 00:37:54,746 | ERROR | Metric calculation failed. Check that preprocessing outputs exist in data/processed/ before rerunning.
+Traceback (most recent call last):
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 228, in main
+    run_metrics()
+    ~~~~~~~~~~~^^
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 145, in run_metrics
+    metrics.run_pipeline()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 426, in run_pipeline
+    self.calculate_beta()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 226, in calculate_beta
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Portfolio data has no 'Benchmark Return' column. Check that BENCHMARK exists in daily_returns.csv.
+2026-07-07 00:38:30,787 | INFO | ============================================================
+2026-07-07 00:38:30,787 | INFO | PORTFOLIO ANALYTICS PIPELINE — START
+2026-07-07 00:38:30,787 | INFO | ============================================================
+2026-07-07 00:38:30,787 | INFO | ############################################################
+2026-07-07 00:38:30,787 | INFO | # PHASE 1 — DATA DOWNLOAD
+2026-07-07 00:38:30,787 | INFO | ############################################################
+2026-07-07 00:38:31,570 | INFO | ============================================================
+2026-07-07 00:38:31,570 | INFO | STARTING DOWNLOAD
+2026-07-07 00:38:31,570 | INFO | ============================================================
+2026-07-07 00:38:31,570 | INFO | Downloading JKH-N0000.CM
+2026-07-07 00:38:32,894 | INFO | JKH-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:32,894 | INFO | Downloading COMB-N0000.CM
+2026-07-07 00:38:33,578 | INFO | COMB-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:33,579 | INFO | Downloading HNB-N0000.CM
+2026-07-07 00:38:34,262 | INFO | HNB-N0000.CM: Downloaded 2190 rows
+2026-07-07 00:38:34,262 | INFO | Downloading SAMP-N0000.CM
+2026-07-07 00:38:34,958 | INFO | SAMP-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:34,958 | INFO | Downloading CCS-N0000.CM
+2026-07-07 00:38:35,619 | INFO | CCS-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:38:35,619 | INFO | Downloading AAF-N0000.CM
+2026-07-07 00:38:36,202 | INFO | AAF-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:36,203 | INFO | Downloading AAIC-N0000.CM
+2026-07-07 00:38:36,832 | INFO | AAIC-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:38:36,832 | INFO | Downloading AHPL-N0000.CM
+2026-07-07 00:38:37,533 | INFO | AHPL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:37,533 | INFO | Downloading AFSL-N0000.CM
+2026-07-07 00:38:38,134 | INFO | AFSL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:38,134 | INFO | Downloading ALLI-N0000.CM
+2026-07-07 00:38:38,854 | INFO | ALLI-N0000.CM: Downloaded 2188 rows
+2026-07-07 00:38:38,855 | INFO | Downloading AEL-N0000.CM
+2026-07-07 00:38:39,553 | INFO | AEL-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:39,553 | INFO | Downloading CALF-N0000.CM
+2026-07-07 00:38:40,089 | INFO | CALF-N0000.CM: Downloaded 2187 rows
+2026-07-07 00:38:40,089 | INFO | Downloading ^CSE
+2026-07-07 00:38:40,694 | WARNING | ^CSE: No data returned
+2026-07-07 00:38:40,694 | INFO | ============================================================
+2026-07-07 00:38:40,694 | INFO | DOWNLOAD COMPLETE
+2026-07-07 00:38:40,694 | INFO | ============================================================
+2026-07-07 00:38:40,694 | INFO | Successful: 12
+2026-07-07 00:38:40,694 | INFO | Failed: 1
+2026-07-07 00:38:40,694 | WARNING | The following tickers FAILED to download: ['^CSE']
+2026-07-07 00:38:40,694 | INFO | ############################################################
+2026-07-07 00:38:40,694 | INFO | # PHASE 2 — DATA VALIDATION
+2026-07-07 00:38:40,695 | INFO | ############################################################
+2026-07-07 00:38:40,696 | INFO | Validating downloaded files...
+2026-07-07 00:38:40,717 | INFO | AAF-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,735 | INFO | AAIC-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,756 | INFO | AEL-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,776 | INFO | AFSL-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,795 | INFO | AHPL-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,811 | INFO | ALLI-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,826 | INFO | CALF-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,841 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,859 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,876 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,892 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,913 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-07 00:38:40,913 | INFO | Validation passed: 12 file(s) checked, 0 warning(s).
+2026-07-07 00:38:40,913 | INFO | ############################################################
+2026-07-07 00:38:40,913 | INFO | # PHASE 3 — PREPROCESSING
+2026-07-07 00:38:40,913 | INFO | ############################################################
+2026-07-07 00:38:40,914 | INFO | ============================================================
+2026-07-07 00:38:40,914 | INFO | STARTING PREPROCESSING
+2026-07-07 00:38:40,914 | INFO | ============================================================
+2026-07-07 00:38:40,914 | INFO | Loading CSE price files...
+2026-07-07 00:38:40,914 | INFO | Loading JKH-N0000.CM.csv
+2026-07-07 00:38:40,919 | INFO | Loading COMB-N0000.CM.csv
+2026-07-07 00:38:40,926 | INFO | Loading HNB-N0000.CM.csv
+2026-07-07 00:38:40,932 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-07 00:38:40,940 | INFO | Loading CCS-N0000.CM.csv
+2026-07-07 00:38:40,946 | INFO | Loading AAF-N0000.CM.csv
+2026-07-07 00:38:40,952 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-07 00:38:40,958 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-07 00:38:40,964 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-07 00:38:40,970 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-07 00:38:40,976 | INFO | Loading AEL-N0000.CM.csv
+2026-07-07 00:38:40,983 | INFO | Loading CALF-N0000.CM.csv
+2026-07-07 00:38:40,994 | WARNING | Benchmark raw file not found: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\data\raw\^CSE.csv. Run download first, then rerun preprocessing.
+2026-07-07 00:38:40,994 | INFO | Loaded 12 assets + benchmark.
+2026-07-07 00:38:40,994 | INFO | Aligning dates...
+2026-07-07 00:38:40,994 | INFO | Rows: 2190
+2026-07-07 00:38:40,994 | INFO | Handling missing values...
+2026-07-07 00:38:40,995 | INFO | Missing before fill: 30
+2026-07-07 00:38:40,997 | INFO | Missing after fill: 0
+2026-07-07 00:38:40,997 | INFO | Calculating daily returns...
+2026-07-07 00:38:40,999 | INFO | Calculated returns for 12 assets.
+2026-07-07 00:38:40,999 | INFO | Building portfolio...
+2026-07-07 00:38:41,000 | INFO | Portfolio created.
+2026-07-07 00:38:41,001 | INFO | Generating transaction history...
+2026-07-07 00:38:41,001 | INFO | Transaction history created.
+2026-07-07 00:38:41,001 | INFO | Saving processed datasets...
+2026-07-07 00:38:41,071 | INFO | All processed files saved.
+2026-07-07 00:38:41,071 | INFO | ============================================================
+2026-07-07 00:38:41,071 | INFO | PREPROCESSING COMPLETE
+2026-07-07 00:38:41,071 | INFO | ============================================================
+2026-07-07 00:38:41,071 | INFO | ############################################################
+2026-07-07 00:38:41,071 | INFO | # PHASE 4 — METRIC CALCULATION
+2026-07-07 00:38:41,071 | INFO | ############################################################
+2026-07-07 00:38:41,073 | INFO | ============================================================
+2026-07-07 00:38:41,073 | INFO | STARTING METRIC CALCULATIONS
+2026-07-07 00:38:41,073 | INFO | ============================================================
+2026-07-07 00:38:41,073 | INFO | ============================================================
+2026-07-07 00:38:41,073 | INFO | Loading processed datasets...
+2026-07-07 00:38:41,073 | INFO | ============================================================
+2026-07-07 00:38:41,113 | WARNING | Benchmark ticker '^CSE' not found in daily_returns.csv — beta cannot be calculated until this is present.
+2026-07-07 00:38:41,113 | INFO | Portfolio rows : 2189
+2026-07-07 00:38:41,113 | INFO | Asset return rows : 2189
+2026-07-07 00:38:41,113 | INFO | Calculating return metrics...
+2026-07-07 00:38:41,113 | INFO | Cumulative Return : 381.82%
+2026-07-07 00:38:41,113 | INFO | Annualized Return : 19.84%
+2026-07-07 00:38:41,113 | INFO | Calculating volatility...
+2026-07-07 00:38:41,113 | INFO | Annualized Volatility : 19.42%
+2026-07-07 00:38:41,113 | INFO | Calculating Sharpe Ratio...
+2026-07-07 00:38:41,113 | INFO | Sharpe Ratio : 0.5868
+2026-07-07 00:38:41,113 | INFO | Calculating Maximum Drawdown...
+2026-07-07 00:38:41,114 | INFO | Maximum Drawdown : -42.48%
+2026-07-07 00:38:41,114 | INFO | Peak Date : 2022-01-31 00:00:00
+2026-07-07 00:38:41,114 | INFO | Trough Date : 2022-07-08 00:00:00
+2026-07-07 00:38:41,114 | INFO | Calculating Portfolio Beta...
+2026-07-07 00:38:41,114 | ERROR | Metric calculation failed. Check that preprocessing outputs exist in data/processed/ before rerunning.
+Traceback (most recent call last):
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 228, in main
+    run_metrics()
+    ~~~~~~~~~~~^^
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\main.py", line 145, in run_metrics
+    metrics.run_pipeline()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 426, in run_pipeline
+    self.calculate_beta()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\src\analytics\metrics.py", line 226, in calculate_beta
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Portfolio data has no 'Benchmark Return' column. Check that BENCHMARK exists in daily_returns.csv.
+2026-07-07 00:39:42,432 | INFO | ============================================================
+2026-07-07 00:39:42,432 | INFO | PORTFOLIO ANALYTICS PIPELINE — START
+2026-07-07 00:39:42,432 | INFO | ============================================================
+2026-07-07 00:39:42,432 | INFO | Skipping Phase 1 — using existing raw CSVs.
+2026-07-07 00:39:42,432 | INFO | ############################################################
+2026-07-07 00:39:42,432 | INFO | # PHASE 2 — DATA VALIDATION
+2026-07-07 00:39:42,432 | INFO | ############################################################
+2026-07-07 00:39:42,894 | INFO | Validating downloaded files...
+2026-07-07 00:39:42,905 | INFO | AAF-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,911 | INFO | AAIC-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,918 | INFO | AEL-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,924 | INFO | AFSL-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,929 | INFO | AHPL-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,935 | INFO | ALLI-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,941 | INFO | CALF-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,947 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,954 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,961 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,966 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,973 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-07 00:39:42,974 | INFO | Validation passed: 12 file(s) checked, 0 warning(s).
+2026-07-07 00:39:42,974 | INFO | ############################################################
+2026-07-07 00:39:42,974 | INFO | # PHASE 3 — PREPROCESSING
+2026-07-07 00:39:42,974 | INFO | ############################################################
+2026-07-07 00:39:42,976 | INFO | ============================================================
+2026-07-07 00:39:42,976 | INFO | STARTING PREPROCESSING
+2026-07-07 00:39:42,976 | INFO | ============================================================
+2026-07-07 00:39:42,976 | INFO | Loading CSE price files...
+2026-07-07 00:39:42,976 | INFO | Loading JKH-N0000.CM.csv
+2026-07-07 00:39:42,981 | INFO | Loading COMB-N0000.CM.csv
+2026-07-07 00:39:42,988 | INFO | Loading HNB-N0000.CM.csv
+2026-07-07 00:39:42,994 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-07 00:39:43,001 | INFO | Loading CCS-N0000.CM.csv
+2026-07-07 00:39:43,006 | INFO | Loading AAF-N0000.CM.csv
+2026-07-07 00:39:43,012 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-07 00:39:43,018 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-07 00:39:43,023 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-07 00:39:43,028 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-07 00:39:43,034 | INFO | Loading AEL-N0000.CM.csv
+2026-07-07 00:39:43,041 | INFO | Loading CALF-N0000.CM.csv
+2026-07-07 00:39:43,051 | WARNING | Benchmark raw file not found: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\data\raw\^CSE.csv. Run download first, then rerun preprocessing.
+2026-07-07 00:39:43,051 | INFO | Loaded 12 assets + benchmark.
+2026-07-07 00:39:43,051 | INFO | Aligning dates...
+2026-07-07 00:39:43,051 | INFO | Rows: 2190
+2026-07-07 00:39:43,052 | INFO | Handling missing values...
+2026-07-07 00:39:43,052 | INFO | Missing before fill: 30
+2026-07-07 00:39:43,053 | INFO | Missing after fill: 0
+2026-07-07 00:39:43,054 | INFO | Calculating daily returns...
+2026-07-07 00:39:43,055 | INFO | Calculated returns for 12 assets.
+2026-07-07 00:39:43,055 | INFO | Building portfolio...
+2026-07-07 00:39:43,057 | INFO | Portfolio created.
+2026-07-07 00:39:43,057 | INFO | Generating transaction history...
+2026-07-07 00:39:43,058 | INFO | Transaction history created.
+2026-07-07 00:39:43,058 | INFO | Saving processed datasets...
+2026-07-07 00:39:43,131 | INFO | All processed files saved.
+2026-07-07 00:39:43,131 | INFO | ============================================================
+2026-07-07 00:39:43,131 | INFO | PREPROCESSING COMPLETE
+2026-07-07 00:39:43,131 | INFO | ============================================================
+2026-07-07 00:39:43,131 | INFO | ############################################################
+2026-07-07 00:39:43,132 | INFO | # PHASE 4 — METRIC CALCULATION
+2026-07-07 00:39:43,132 | INFO | ############################################################
+2026-07-07 00:39:43,137 | INFO | ============================================================
+2026-07-07 00:39:43,137 | INFO | STARTING METRIC CALCULATIONS
+2026-07-07 00:39:43,137 | INFO | ============================================================
+2026-07-07 00:39:43,137 | INFO | ============================================================
+2026-07-07 00:39:43,137 | INFO | Loading processed datasets...
+2026-07-07 00:39:43,137 | INFO | ============================================================
+2026-07-07 00:39:43,174 | WARNING | Benchmark ticker '^CSE' not found in daily_returns.csv — beta cannot be calculated until this is present.
+2026-07-07 00:39:43,174 | INFO | Portfolio rows : 2189
+2026-07-07 00:39:43,174 | INFO | Asset return rows : 2189
+2026-07-07 00:39:43,174 | INFO | Calculating return metrics...
+2026-07-07 00:39:43,175 | INFO | Cumulative Return : 381.82%
+2026-07-07 00:39:43,175 | INFO | Annualized Return : 19.84%
+2026-07-07 00:39:43,175 | INFO | Calculating volatility...
+2026-07-07 00:39:43,175 | INFO | Annualized Volatility : 19.42%
+2026-07-07 00:39:43,175 | INFO | Calculating Sharpe Ratio...
+2026-07-07 00:39:43,175 | INFO | Sharpe Ratio : 0.5868
+2026-07-07 00:39:43,175 | INFO | Calculating Maximum Drawdown...
+2026-07-07 00:39:43,176 | INFO | Maximum Drawdown : -42.48%
+2026-07-07 00:39:43,176 | INFO | Peak Date : 2022-01-31 00:00:00
+2026-07-07 00:39:43,176 | INFO | Trough Date : 2022-07-08 00:00:00
+2026-07-07 00:39:43,176 | INFO | Calculating Portfolio Beta...
+2026-07-07 00:39:43,176 | WARNING | Skipping beta — 'Benchmark Return' column is absent. Provide benchmark data in daily_returns.csv to enable this metric.
+2026-07-07 00:39:43,176 | INFO | Calculating Correlation Matrix...
+2026-07-07 00:39:43,177 | INFO | Correlation matrix created.
+2026-07-07 00:39:43,177 | INFO | 
+               JKH-N0000.CM  COMB-N0000.CM  ...  AEL-N0000.CM  CALF-N0000.CM
+JKH-N0000.CM       1.000000       0.238905  ...      0.185303       0.029498
+COMB-N0000.CM      0.238905       1.000000  ...      0.324520       0.184761
+HNB-N0000.CM       0.199996       0.602442  ...      0.320099       0.025039
+SAMP-N0000.CM      0.221139       0.564191  ...      0.337384       0.030504
+CCS-N0000.CM       0.089028       0.179294  ...      0.204743       0.013128
+AAF-N0000.CM       0.045720       0.172149  ...      0.151170       0.056876
+AAIC-N0000.CM      0.119085       0.221674  ...      0.294426       0.019719
+AHPL-N0000.CM      0.131307       0.158627  ...      0.164893       0.021865
+AFSL-N0000.CM      0.047660       0.086164  ...      0.069064       0.034298
+ALLI-N0000.CM      0.124357       0.226133  ...      0.289614       0.051100
+AEL-N0000.CM       0.185303       0.324520  ...      1.000000       0.042683
+CALF-N0000.CM      0.029498       0.184761  ...      0.042683       1.000000
+
+[12 rows x 12 columns]
+2026-07-07 00:39:43,195 | INFO | Calculating Asset Contribution...
+2026-07-07 00:39:43,197 | INFO | Asset contribution calculated.
+2026-07-07 00:39:43,197 | INFO | Sum of contributions : 252.50% (compare to Cumulative Return above)
+2026-07-07 00:39:43,198 | INFO | Validating metrics...
+2026-07-07 00:39:43,198 | INFO | Validation successful.
+2026-07-07 00:39:43,198 | INFO | Portfolio Return : 381.82%
+2026-07-07 00:39:43,198 | INFO | Sharpe Ratio : 0.587
+2026-07-07 00:39:43,198 | INFO | Beta : N/A (benchmark unavailable)
+2026-07-07 00:39:43,198 | INFO | ============================================================
+2026-07-07 00:39:43,198 | INFO | METRIC SUMMARY
+2026-07-07 00:39:43,198 | INFO | ============================================================
+2026-07-07 00:39:43,198 | INFO | Initial Value                  100,854.32
+2026-07-07 00:39:43,198 | INFO | Final Value                    485,935.43
+2026-07-07 00:39:43,198 | INFO | Cumulative Return              381.82%
+2026-07-07 00:39:43,198 | INFO | Annualized Return              19.84%
+2026-07-07 00:39:43,198 | INFO | Annualized Volatility          19.42%
+2026-07-07 00:39:43,198 | INFO | Sharpe Ratio                   0.5868
+2026-07-07 00:39:43,198 | INFO | Maximum Drawdown               -42.48%
+2026-07-07 00:39:43,198 | INFO | Drawdown Peak Date             2022-01-31 00:00:00
+2026-07-07 00:39:43,198 | INFO | Drawdown Trough Date           2022-07-08 00:00:00
+2026-07-07 00:39:43,198 | INFO | Beta                           None
+2026-07-07 00:39:43,198 | INFO | Saving results...
+2026-07-07 00:39:43,231 | INFO | Results saved.
+2026-07-07 00:39:43,231 | INFO | ============================================================
+2026-07-07 00:39:43,231 | INFO | METRIC CALCULATION COMPLETE
+2026-07-07 00:39:43,231 | INFO | ============================================================
+2026-07-07 00:39:43,231 | INFO | ============================================================
+2026-07-07 00:39:43,231 | INFO | PORTFOLIO ANALYTICS PIPELINE — COMPLETE
+2026-07-07 00:39:43,232 | INFO | ============================================================
+2026-07-07 01:03:48,147 | INFO | ============================================================
+2026-07-07 01:03:48,147 | INFO | PORTFOLIO ANALYTICS PIPELINE — START
+2026-07-07 01:03:48,147 | INFO | ============================================================
+2026-07-07 01:03:48,147 | INFO | Skipping Phase 1 — using existing raw CSVs.
+2026-07-07 01:03:48,147 | INFO | ############################################################
+2026-07-07 01:03:48,147 | INFO | # PHASE 2 — DATA VALIDATION
+2026-07-07 01:03:48,147 | INFO | ############################################################
+2026-07-07 01:03:48,883 | INFO | Validating downloaded files...
+2026-07-07 01:03:48,906 | INFO | AAF-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,913 | INFO | AAIC-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,921 | INFO | AEL-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,928 | INFO | AFSL-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,935 | INFO | AHPL-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,942 | INFO | ALLI-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,949 | INFO | CALF-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,955 | INFO | CCS-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,964 | INFO | COMB-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,973 | INFO | HNB-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,980 | INFO | JKH-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,988 | INFO | SAMP-N0000.CM.csv -> PASS
+2026-07-07 01:03:48,988 | INFO | Validation passed: 12 file(s) checked, 0 warning(s).
+2026-07-07 01:03:48,988 | INFO | ############################################################
+2026-07-07 01:03:48,988 | INFO | # PHASE 3 — PREPROCESSING
+2026-07-07 01:03:48,988 | INFO | ############################################################
+2026-07-07 01:03:48,994 | INFO | ============================================================
+2026-07-07 01:03:48,994 | INFO | STARTING PREPROCESSING
+2026-07-07 01:03:48,994 | INFO | ============================================================
+2026-07-07 01:03:48,994 | INFO | Loading CSE price files...
+2026-07-07 01:03:48,994 | INFO | Loading JKH-N0000.CM.csv
+2026-07-07 01:03:49,002 | INFO | Loading COMB-N0000.CM.csv
+2026-07-07 01:03:49,009 | INFO | Loading HNB-N0000.CM.csv
+2026-07-07 01:03:49,015 | INFO | Loading SAMP-N0000.CM.csv
+2026-07-07 01:03:49,023 | INFO | Loading CCS-N0000.CM.csv
+2026-07-07 01:03:49,029 | INFO | Loading AAF-N0000.CM.csv
+2026-07-07 01:03:49,035 | INFO | Loading AAIC-N0000.CM.csv
+2026-07-07 01:03:49,041 | INFO | Loading AHPL-N0000.CM.csv
+2026-07-07 01:03:49,047 | INFO | Loading AFSL-N0000.CM.csv
+2026-07-07 01:03:49,053 | INFO | Loading ALLI-N0000.CM.csv
+2026-07-07 01:03:49,059 | INFO | Loading AEL-N0000.CM.csv
+2026-07-07 01:03:49,069 | INFO | Loading CALF-N0000.CM.csv
+2026-07-07 01:03:49,082 | INFO | Loaded 12 assets.
+2026-07-07 01:03:49,083 | INFO | Aligning dates...
+2026-07-07 01:03:49,083 | INFO | Rows: 2190
+2026-07-07 01:03:49,083 | INFO | Handling missing values...
+2026-07-07 01:03:49,083 | INFO | Missing before fill: 30
+2026-07-07 01:03:49,086 | INFO | Missing after fill: 0
+2026-07-07 01:03:49,086 | INFO | Calculating daily returns...
+2026-07-07 01:03:49,088 | INFO | Calculated returns for 12 assets.
+2026-07-07 01:03:49,088 | INFO | Building portfolio...
+2026-07-07 01:03:49,090 | INFO | Portfolio created.
+2026-07-07 01:03:49,090 | INFO | Generating transaction history...
+2026-07-07 01:03:49,091 | INFO | Transaction history created.
+2026-07-07 01:03:49,091 | INFO | Saving processed datasets...
+2026-07-07 01:03:49,169 | INFO | All processed files saved.
+2026-07-07 01:03:49,169 | INFO | ============================================================
+2026-07-07 01:03:49,169 | INFO | PREPROCESSING COMPLETE
+2026-07-07 01:03:49,169 | INFO | ============================================================
+2026-07-07 01:03:49,169 | INFO | ############################################################
+2026-07-07 01:03:49,169 | INFO | # PHASE 4 — METRIC CALCULATION
+2026-07-07 01:03:49,169 | INFO | ############################################################
+2026-07-07 01:03:49,176 | INFO | ============================================================
+2026-07-07 01:03:49,176 | INFO | STARTING METRIC CALCULATIONS
+2026-07-07 01:03:49,176 | INFO | ============================================================
+2026-07-07 01:03:49,176 | INFO | ============================================================
+2026-07-07 01:03:49,176 | INFO | Loading processed datasets...
+2026-07-07 01:03:49,176 | INFO | ============================================================
+2026-07-07 01:03:49,220 | INFO | Portfolio rows : 2189
+2026-07-07 01:03:49,220 | INFO | Asset return rows : 2189
+2026-07-07 01:03:49,220 | INFO | Calculating return metrics...
+2026-07-07 01:03:49,221 | INFO | Cumulative Return : 381.82%
+2026-07-07 01:03:49,221 | INFO | Annualized Return : 19.84%
+2026-07-07 01:03:49,221 | INFO | Calculating volatility...
+2026-07-07 01:03:49,221 | INFO | Annualized Volatility : 19.42%
+2026-07-07 01:03:49,221 | INFO | Calculating Sharpe Ratio...
+2026-07-07 01:03:49,221 | INFO | Sharpe Ratio : 0.5868
+2026-07-07 01:03:49,221 | INFO | Calculating Maximum Drawdown...
+2026-07-07 01:03:49,222 | INFO | Maximum Drawdown : -42.48%
+2026-07-07 01:03:49,222 | INFO | Peak Date : 2022-01-31 00:00:00
+2026-07-07 01:03:49,223 | INFO | Trough Date : 2022-07-08 00:00:00
+2026-07-07 01:03:49,223 | INFO | Calculating Correlation Matrix...
+2026-07-07 01:03:49,224 | INFO | Correlation matrix created.
+2026-07-07 01:03:49,224 | INFO | 
+               JKH-N0000.CM  COMB-N0000.CM  ...  AEL-N0000.CM  CALF-N0000.CM
+JKH-N0000.CM       1.000000       0.238905  ...      0.185303       0.029498
+COMB-N0000.CM      0.238905       1.000000  ...      0.324520       0.184761
+HNB-N0000.CM       0.199996       0.602442  ...      0.320099       0.025039
+SAMP-N0000.CM      0.221139       0.564191  ...      0.337384       0.030504
+CCS-N0000.CM       0.089028       0.179294  ...      0.204743       0.013128
+AAF-N0000.CM       0.045720       0.172149  ...      0.151170       0.056876
+AAIC-N0000.CM      0.119085       0.221674  ...      0.294426       0.019719
+AHPL-N0000.CM      0.131307       0.158627  ...      0.164893       0.021865
+AFSL-N0000.CM      0.047660       0.086164  ...      0.069064       0.034298
+ALLI-N0000.CM      0.124357       0.226133  ...      0.289614       0.051100
+AEL-N0000.CM       0.185303       0.324520  ...      1.000000       0.042683
+CALF-N0000.CM      0.029498       0.184761  ...      0.042683       1.000000
+
+[12 rows x 12 columns]
+2026-07-07 01:03:49,240 | INFO | Calculating Asset Contribution...
+2026-07-07 01:03:49,242 | INFO | Asset contribution calculated.
+2026-07-07 01:03:49,242 | INFO | Sum of contributions : 252.50% (compare to Cumulative Return above)
+2026-07-07 01:03:49,242 | INFO | Validating metrics...
+2026-07-07 01:03:49,242 | INFO | Validation successful.
+2026-07-07 01:03:49,242 | INFO | Portfolio Return : 381.82%
+2026-07-07 01:03:49,242 | INFO | Sharpe Ratio : 0.587
+2026-07-07 01:03:49,242 | INFO | ============================================================
+2026-07-07 01:03:49,243 | INFO | METRIC SUMMARY
+2026-07-07 01:03:49,243 | INFO | ============================================================
+2026-07-07 01:03:49,243 | INFO | Initial Value                  100,854.32
+2026-07-07 01:03:49,243 | INFO | Final Value                    485,935.43
+2026-07-07 01:03:49,243 | INFO | Cumulative Return              381.82%
+2026-07-07 01:03:49,243 | INFO | Annualized Return              19.84%
+2026-07-07 01:03:49,243 | INFO | Annualized Volatility          19.42%
+2026-07-07 01:03:49,243 | INFO | Sharpe Ratio                   0.5868
+2026-07-07 01:03:49,243 | INFO | Maximum Drawdown               -42.48%
+2026-07-07 01:03:49,243 | INFO | Drawdown Peak Date             2022-01-31 00:00:00
+2026-07-07 01:03:49,243 | INFO | Drawdown Trough Date           2022-07-08 00:00:00
+2026-07-07 01:03:49,243 | INFO | Saving results...
+2026-07-07 01:03:49,273 | INFO | Results saved.
+2026-07-07 01:03:49,273 | INFO | ============================================================
+2026-07-07 01:03:49,274 | INFO | METRIC CALCULATION COMPLETE
+2026-07-07 01:03:49,274 | INFO | ============================================================
+2026-07-07 01:03:49,274 | INFO | ============================================================
+2026-07-07 01:03:49,274 | INFO | PORTFOLIO ANALYTICS PIPELINE — COMPLETE
+2026-07-07 01:03:49,274 | INFO | ============================================================
+2026-07-07 02:02:55,154 | INFO | ============================================================
+2026-07-07 02:02:55,154 | INFO | CREATING DATABASE SCHEMA
+2026-07-07 02:02:55,154 | INFO | ============================================================
+2026-07-07 02:02:55,154 | INFO | Database path: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 02:02:55,174 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 02:02:55,221 | INFO | Tables in database: ['assets', 'daily_prices', 'portfolio_daily_value', 'portfolio_metrics', 'sqlite_sequence', 'transactions']
+2026-07-07 02:02:55,224 | INFO | Database connection closed.
+2026-07-07 02:02:55,224 | INFO | Schema creation complete.
+2026-07-07 02:03:18,039 | INFO | ============================================================
+2026-07-07 02:03:18,039 | INFO | POPULATING DATABASE
+2026-07-07 02:03:18,040 | INFO | ============================================================
+2026-07-07 02:03:18,040 | INFO | Assets prepared: 12 rows
+2026-07-07 02:03:18,815 | INFO | Daily prices prepared: 26,280 rows
+2026-07-07 02:03:18,839 | INFO | Transactions prepared: 24 rows
+2026-07-07 02:03:18,908 | INFO | Portfolio daily value prepared: 2,189 rows
+2026-07-07 02:03:18,909 | INFO | Portfolio metrics prepared: 7 rows
+2026-07-07 02:03:18,913 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 02:03:18,913 | INFO | Clearing existing data...
+2026-07-07 02:03:18,922 | INFO | Inserting assets...
+2026-07-07 02:03:18,928 | INFO | Inserting daily prices (this may take a moment)...
+2026-07-07 02:03:19,028 | INFO | Inserting transactions...
+2026-07-07 02:03:19,033 | INFO | Inserting portfolio daily value...
+2026-07-07 02:03:19,040 | INFO | Inserting portfolio metrics...
+2026-07-07 02:03:19,068 | INFO | Database connection closed.
+2026-07-07 02:03:19,068 | INFO | ============================================================
+2026-07-07 02:03:19,068 | INFO | DATABASE POPULATION COMPLETE
+2026-07-07 02:03:19,068 | INFO | ============================================================
+2026-07-07 18:45:10,119 | INFO | ============================================================
+2026-07-07 18:45:10,119 | INFO | CREATING DATABASE SCHEMA
+2026-07-07 18:45:10,119 | INFO | ============================================================
+2026-07-07 18:45:10,119 | INFO | Database path: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 18:45:10,127 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 18:45:10,139 | INFO | Tables in database: ['assets', 'daily_prices', 'portfolio_daily_value', 'portfolio_metrics', 'sqlite_sequence', 'transactions']
+2026-07-07 18:45:10,139 | INFO | Database connection closed.
+2026-07-07 18:45:10,140 | INFO | Schema creation complete.
+2026-07-07 18:45:15,138 | INFO | ============================================================
+2026-07-07 18:45:15,138 | INFO | POPULATING DATABASE
+2026-07-07 18:45:15,138 | INFO | ============================================================
+2026-07-07 18:45:15,138 | INFO | Assets prepared: 12 rows
+2026-07-07 18:45:15,922 | INFO | Daily prices prepared: 26,280 rows
+2026-07-07 18:45:15,947 | INFO | Transactions prepared: 24 rows
+2026-07-07 18:45:16,027 | INFO | Portfolio daily value prepared: 2,189 rows
+2026-07-07 18:45:16,029 | INFO | Portfolio metrics prepared: 7 rows
+2026-07-07 18:45:16,031 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 18:45:16,031 | INFO | Clearing existing data...
+2026-07-07 18:45:16,100 | INFO | Inserting assets...
+2026-07-07 18:45:16,108 | INFO | Inserting daily prices (this may take a moment)...
+2026-07-07 18:45:16,255 | INFO | Inserting transactions...
+2026-07-07 18:45:16,260 | INFO | Inserting portfolio daily value...
+2026-07-07 18:45:16,267 | INFO | Inserting portfolio metrics...
+2026-07-07 18:45:16,275 | INFO | Database connection closed.
+2026-07-07 18:45:16,275 | INFO | ============================================================
+2026-07-07 18:45:16,275 | INFO | DATABASE POPULATION COMPLETE
+2026-07-07 18:45:16,275 | INFO | ============================================================
+2026-07-07 18:54:12,725 | INFO | ============================================================
+2026-07-07 18:54:12,725 | INFO | CREATING DATABASE SCHEMA
+2026-07-07 18:54:12,725 | INFO | ============================================================
+2026-07-07 18:54:12,725 | INFO | Database path: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 18:54:12,739 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 18:54:12,771 | INFO | Tables in database: ['assets', 'daily_prices', 'portfolio_daily_value', 'portfolio_metrics', 'sqlite_sequence', 'transactions']
+2026-07-07 18:54:12,775 | INFO | Database connection closed.
+2026-07-07 18:54:12,775 | INFO | Schema creation complete.
+2026-07-07 18:54:22,433 | INFO | ============================================================
+2026-07-07 18:54:22,433 | INFO | POPULATING DATABASE
+2026-07-07 18:54:22,433 | INFO | ============================================================
+2026-07-07 18:54:22,433 | INFO | Assets prepared: 12 rows
+2026-07-07 18:54:23,186 | INFO | Daily prices prepared: 26,280 rows
+2026-07-07 18:54:23,212 | INFO | Transactions prepared: 24 rows
+2026-07-07 18:54:23,289 | INFO | Portfolio daily value prepared: 2,189 rows
+2026-07-07 18:54:23,291 | INFO | Portfolio metrics prepared: 7 rows
+2026-07-07 18:54:23,293 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 18:54:23,293 | INFO | Clearing existing data...
+2026-07-07 18:54:23,308 | INFO | Inserting assets...
+2026-07-07 18:54:23,322 | INFO | Inserting daily prices (this may take a moment)...
+2026-07-07 18:54:23,470 | INFO | Inserting transactions...
+2026-07-07 18:54:23,474 | INFO | Inserting portfolio daily value...
+2026-07-07 18:54:23,481 | INFO | Inserting portfolio metrics...
+2026-07-07 18:54:23,501 | INFO | Database connection closed.
+2026-07-07 18:54:23,501 | INFO | ============================================================
+2026-07-07 18:54:23,501 | INFO | DATABASE POPULATION COMPLETE
+2026-07-07 18:54:23,502 | INFO | ============================================================
+2026-07-07 21:14:04,136 | INFO | ============================================================
+2026-07-07 21:14:04,136 | INFO | CREATING DATABASE SCHEMA
+2026-07-07 21:14:04,136 | INFO | ============================================================
+2026-07-07 21:14:04,136 | INFO | Database path: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 21:14:04,144 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 21:14:04,172 | INFO | Tables in database: ['assets', 'daily_prices', 'portfolio_daily_value', 'portfolio_metrics', 'sqlite_sequence', 'transactions']
+2026-07-07 21:14:04,176 | INFO | Database connection closed.
+2026-07-07 21:14:04,176 | INFO | Schema creation complete.
+2026-07-07 21:14:08,742 | INFO | ============================================================
+2026-07-07 21:14:08,742 | INFO | POPULATING DATABASE
+2026-07-07 21:14:08,742 | INFO | ============================================================
+2026-07-07 21:14:08,742 | INFO | Assets prepared: 12 rows
+2026-07-07 21:14:09,593 | INFO | Daily prices prepared: 26,280 rows
+2026-07-07 21:14:09,618 | INFO | Transactions prepared: 24 rows
+2026-07-07 21:14:09,690 | INFO | Portfolio daily value prepared: 2,189 rows
+2026-07-07 21:14:09,693 | INFO | Portfolio metrics prepared: 7 rows
+2026-07-07 21:14:09,697 | INFO | Connected to database: C:\Users\kATANA GF66\My_Main\CV_projects\portfolio-analytics\database\portfolio.db
+2026-07-07 21:14:09,697 | INFO | Clearing existing data...
+2026-07-07 21:14:09,763 | INFO | Inserting assets...
+2026-07-07 21:14:09,767 | INFO | Inserting daily prices (this may take a moment)...
+2026-07-07 21:14:09,885 | INFO | Inserting transactions...
+2026-07-07 21:14:09,891 | INFO | Inserting portfolio daily value...
+2026-07-07 21:14:09,899 | INFO | Inserting portfolio metrics...
+2026-07-07 21:14:09,907 | INFO | Database connection closed.
+2026-07-07 21:14:09,907 | INFO | ============================================================
+2026-07-07 21:14:09,907 | INFO | DATABASE POPULATION COMPLETE
+2026-07-07 21:14:09,907 | INFO | ============================================================
