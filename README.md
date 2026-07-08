@@ -161,6 +161,9 @@ python database/populate_database.py
 1. Open `powerBi/newport.pbix` in Power BI Desktop.
 2. The dashboard connects to `database/portfolio.db` via **ODBC** (SQLite ODBC driver required).
 
+   ![Uploading image.png…]()
+
+
 ---
 
 ## Key Findings
